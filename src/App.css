@@ -1,0 +1,47 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+/* src/App.css */
+/* Width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+ 
+  background: #256EB5;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #256EB5; 
+}
+
+/* Handle on hover */
+.scrollable::-webkit-scrollbar-thumb:hover {
+  background: #ffffff; 
+}
+/* src/App.css */
+.profile-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: orange;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.75rem;
+}
+
+.profile-circle:not(:first-child) {
+  margin-left: -15px;
+}
