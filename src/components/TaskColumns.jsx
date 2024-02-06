@@ -3,7 +3,7 @@ import React from 'react';
 import TodoColumn from './TodoColumn';
 import '../App.css'
 const TaskColumns = ({ tasks }) => (
-  <div className="flex">
+  <div className="flex flex-col  flex-wrap lg:flex-nowrap md:flex-row  justify-center items-center">
     <TodoColumn 
     className ="scrollbar scrollbar-thumb-blue-600 scrollbar-thumb-rounded"
       heading="To Do"
